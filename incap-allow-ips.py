@@ -4,7 +4,7 @@ from pprint import pprint
 import argparse
 import sys
 
-# Enter your API info here. Refer to Incapsula's documentation..
+# Enter your API and Site ID info here. Refer to Incapsula's documentation.
 api_id = ""
 api_key = ""
 site_id = ""
@@ -18,7 +18,7 @@ ip_str = ""
 ip_list = []
 baseUrl = 'https://my.imperva.com'
 json_raw = json
-restUrl = '/api/prov/v1/sites/configure/acl'
+restUrl = '/api/prov/v1/sites/configure/whitelists'
 
 # Check to see if a file is passed
 if len(sys.argv) < 1:
